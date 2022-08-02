@@ -1,0 +1,15 @@
+api:
+  majorVersion: "v1"
+  id: "18030103"
+  # default ID from dev env
+  
+https:
+  port: "8082"
+
+tls.keystore:
+  type: "PKCS12"
+  path: "check-in-papi.p12"
+  alias: "server"
+  
+db.password: "DEFAULT" #definita in fase di deploy
+
